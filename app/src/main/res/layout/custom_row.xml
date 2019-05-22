@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/row_imageview"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:contentDescription="@string/its_ucp_society"
+        app:layout_constraintEnd_toStartOf="@+id/row_textview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bds" />
+
+    <TextView
+        android:id="@+id/row_textview"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="@string/blood_donor_s_society"
+        app:layout_constraintBottom_toBottomOf="@+id/row_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/row_imageview"
+        app:layout_constraintTop_toTopOf="@+id/row_imageview" />
+</android.support.constraint.ConstraintLayout>
